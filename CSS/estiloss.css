@@ -1,0 +1,139 @@
+@charset "utf-8";
+
+.container{
+	padding: 20px;
+	align-items: center;
+	text-align: center;
+}
+
+
+
+	
+.terms-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+        }
+        
+.terms-ventanita {
+            background-color: white;
+            padding: 30px;
+            border-radius: 15px;
+            max-width: 500px;
+            width: 90%;
+            max-height: 80vh;
+            overflow-y: auto;
+            text-align: center;
+        }
+        
+.terms-texto {
+            text-align: left;
+            margin: 20px 0;
+            max-height: 300px;
+            overflow-y: auto;
+            padding-right: 10px;
+        }
+        
+.boton_acep button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 30px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        
+.boton_acep button:hover {
+            background-color: #0056b3;
+        }
+        
+.barra {
+        background-color: #26377f;
+            height: 10px;
+        }
+
+        
+.sidebar a {
+            display: block;
+            padding: 10px 15px;
+            color: #333;
+            text-decoration: none;
+        }
+        
+.sidebar a:hover {
+            background-color: #f8f9fa;
+            color: #007bff;
+        }
+        
+.foto-hover img {
+            transition: transform 0.3s;
+            cursor: pointer;
+        }
+        
+.foto-hover img:hover {
+            transform: scale(1.05);
+        }
+
+.img-thumbnail {
+     transition: transform 0.3s ease;
+	 display: block;
+     margin: 0 auto;
+	 width: 100%;
+     height: 300px;
+     object-fit: cover;
+}
+
+.img-thumbnail:hover {
+    transform: scale(1.05);
+}
+
+
+.galeria_titulo{
+    background-color: #26377f;
+    text-align: center;
+    color: white;
+    padding: 30px;
+    font-size: 42px;
+    margin-top: 30px;
+}
+
+.galeria-card .carousel-item img{
+    height: 250px;
+    object-fit: cover;
+    filter: brightness(50%);
+    transition: transform 0.3s ease;
+}
+
+.galeria-card{
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+.galeria-card:hover img{
+    transform: scale(1.05);
+}
+
+.texto-galeria{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    transform: translate(-50%, -50%);
+    
+    text-align: center;
+    color: white;
+}
+
+.texto-galeria h1{
+    font-size: 50px;
+    font-weight: bold;
+}
